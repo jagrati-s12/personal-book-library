@@ -1,16 +1,141 @@
-# React + Vite
+# 📚 Personal Book Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Personal Book Library** web application built using **React.js**. This application allows users to manage their personal book collection by adding, editing, deleting, and searching books.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 📖 Add a new book
+* ✏️ Edit existing book details
+* 🗑️ Delete books
+* 🔍 Search books by **Title** or **Author**
+* ⭐ Give ratings (1–5)
+* 📚 Mark books as **Read** or **Unread**
+* 📝 Add descriptions for books
+* 📱 Responsive design for desktop, tablet, and mobile devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript (ES6)
+* CSS
+* Vite
+
+---
+
+## 📂 Project Structure
+
+```text
+book-library/
+│
+├── public/
+│
+├── src/
+│   ├── comp/
+│   │   ├── navbar.jsx
+│   │   ├── card.jsx
+│   │   └── form.jsx
+│   │
+│   ├── pages/
+│   │   └── hom.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/personal-book-library.git
+```
+
+Go to the project folder:
+
+```bash
+cd personal-book-library
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📸 Application Features
+
+* Home page displaying all books
+* Responsive book cards
+* Search functionality
+* Add/Edit book form
+* Delete confirmation
+* Read/Unread status
+* Book ratings
+* Book descriptions
+
+---
+
+## 🎯 Future Improvements
+
+* 💾 Save books using Local Storage
+* ❤️ Favorite books
+* 🌙 Dark Mode
+* 📂 Filter by Genre
+* ⭐ Sort by Rating
+* 🔄 Persistent data after refresh
+
+---
+
+## 📖 Learning Outcomes
+
+This project demonstrates the use of:
+
+* React Components
+* Props
+* useState
+* useEffect
+* Event Handling
+* Conditional Rendering
+* Lists and Keys
+* Search & Filtering
+* CRUD Operations
+* Responsive UI Design
+
+---
+
+## 👩‍💻 Author
+
+**Jagrati Sharma**
+
+B.Tech Computer Science Engineering (KIIT)
+
+---
+
+## 📜 License
+
+This project is developed for educational purposes as part of a React.js assignment.
